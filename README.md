@@ -32,4 +32,18 @@ The main implementation is in the Jupyter notebook `DeepTopicRepresentationSwahi
 The notebook demonstrates that clusters are somewhat language-invariant, with topics like "international" showing strong cross-language similarity.
 
 ## Requirements
-To run the notebook, install the dependencies:
+
+Python 3.8+
+Libraries:
+  transformers (for BERT/Sentence-BERT)
+  torch (for autoencoder and NTM)
+  datasets (Hugging Face for loading Swahili news)
+  scikit-learn (for PCA, t-SNE)
+  umap-learn (for UMAP)
+	matplotlib and seaborn (for visualizations)
+	nltk or spacy (for text preprocessing)
+	Optional: googletrans or similar for translation in multilingual analysis
+
+
+Install dependencies via:
+pip install transformers torch datasets scikit-learn umap-learn matplotlib seaborn nltk
